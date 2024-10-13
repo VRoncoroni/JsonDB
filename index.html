@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Référentiel applicatif</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 class="style_title">Référentiel applicatif</h1>
+
+    <label class="switch">
+        <input type="checkbox" id="switch_config">
+        <span class="slider round"></span>
+    </label>
+
+    <div class="content">
+        <textarea
+            id="config_textarea"
+            cols="30"
+            rows="10"
+            placeholder="Load your file, and edit your config here..."
+        ></textarea>
+        <button  class="button-4 button_update_config" id="button_update_config">Update config</button>
+        <div class="filediv">
+            <input class="" type="file" id="file" accept=".json">
+            <button  class="button-4" id="button_export_data">Export DATA</button>
+        </div>
+        <div>
+            <label class="selectLabel" for="select">Applications</label>
+            <select id="select" name="apps"></select>
+        </div>
+        <div id="app" class="app" ></div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

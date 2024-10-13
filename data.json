@@ -1,0 +1,49 @@
+{
+    "categories": {
+        "Common" : [
+            "title",
+            "Desc",
+            "version"
+        ],
+        "Specific" : [
+            "Hebergement",
+            "Editeur",
+            "Type d'hébergement"
+        ],
+        "Liens" : [
+            "homepage"
+        ]
+    },
+    "apps": [
+        {
+        "title": "Le titre 1",
+        "Desc": "La description 1",
+        "Hebergement": "L'hebergement 1",
+        "Editeur": "L'editeur 1",
+        "homepage": "https://www.google.com"
+        },
+        {
+        "title": "Le titre 2",
+        "Desc": "La description 2",
+        "Hebergement": "L'hebergement 2",
+        "Editeur": "L'editeur 2",
+        "Type d'hébergement": "Le type d'hebergement 2"
+        },
+        {
+        "title": "Le titre 3",
+        "Desc": "La description 3",
+        "Hebergement": "L'hebergement 3",
+        "Editeur": "L'editeur 3",
+        "Type d'hébergement": "Le type d'hebergement 3",
+        "homepage": "https://www.google.com"
+        },
+        {
+        "title": "Le titre 4",
+        "Desc": "La description 4",
+        "Hebergement": "L'hebergement 4",
+        "Editeur": "L'editeur 4",
+        "Type d'hébergement": "Le type d'hebergement 4",
+        "version": "1.0.0"
+        }        
+    ]
+}
